@@ -8,10 +8,19 @@
   body { font-family: -apple-system, "Hiragino Sans", sans-serif; max-width: 720px; margin: 40px auto; padding: 0 16px; line-height: 1.7; color: #222; background: #fff; }
   h1 { font-size: 1.6em; }
   a { color: #1a5fd0; }
+  .yt { display: inline-flex; align-items: center; gap: 8px; padding: 6px 12px; border: 1px solid #ddd; border-radius: 6px; font-weight: 600; }
+  .yt svg { width: 28px; height: 20px; }
+  nav { margin: 24px 0; padding-top: 12px; border-top: 1px solid #eee; }
+  nav a { margin-right: 20px; }
 </style>
 </head>
 <body>
 <h1>auto-uploader</h1>
+
+<p class="yt">
+  <svg viewBox="0 0 28 20" aria-hidden="true"><rect width="28" height="20" rx="5" fill="#FF0000"/><path d="M11 5.5v9l8-4.5z" fill="#fff"/></svg>
+  Uses YouTube API Services
+</p>
 
 <p>auto-uploader is a personal tool that uploads videos created by its owner to the owner's own YouTube channel.</p>
 <ul>
@@ -22,6 +31,9 @@
 
 <p>auto-uploader は、作成者が自分で作った動画を、作成者自身の YouTube チャンネルにアップロードするための個人用ツールです。ほかのユーザーのデータを集めたり、第三者に渡したりすることはありません。</p>
 
-<p><a href="privacy.html">Privacy Policy / プライバシーポリシー</a></p>
+<nav>
+  <a href="privacy.html">Privacy Policy / プライバシーポリシー</a>
+  <a href="terms.html">Terms of Service / 利用規約</a>
+</nav>
 </body>
 </html>
